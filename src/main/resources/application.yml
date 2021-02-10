@@ -1,17 +1,11 @@
 micronaut:
   application:
     name: demo
-datasources:
-  default:
-    url: jdbc:postgresql://localhost:5432/postgres
-    driverClassName: org.postgresql.Driver
-    username: postgres
-    password: ''
 dataSource:
-  url: jdbc:postgresql://localhost:5432/postgres
+  url: jdbc:postgresql://db:5432/tt
   driverClassName: org.postgresql.Driver
-  username: postgres
-  password: ''
+  username: tt
+  password: 'tt'
   pooled: true
   jmxExport: true
 hibernate:

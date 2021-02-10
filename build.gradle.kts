@@ -24,6 +24,7 @@ micronaut {
 dependencies {
     implementation("io.micronaut:micronaut-validation")
     implementation("io.micronaut.groovy:micronaut-runtime-groovy")
+    implementation("org.codehaus.groovy:groovy-all:3.0.5")
     implementation("javax.annotation:javax.annotation-api")
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut.sql:micronaut-jdbc-hikari")
